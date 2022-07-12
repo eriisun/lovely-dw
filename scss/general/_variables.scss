@@ -1,5 +1,12 @@
-$clr-lightp: #f6b1c3;
-$clr-pink: #f0788c;
-$clr-hotpink: #de264c;
-$clr-deeppink: #bc0d35;
-$clr-wine: #a20d1e;
+$clr-white: #eadff2;
+$clr-lightp: #f2bdd6;
+$clr-pink: #f25ca2;
+$clr-peach: #f26b9c;
+$clr-blue: #2e2d59;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fahkwang&display=swap'); //prata para sub, cinzel para titulos
+ $ff-fah: 'Fahkwang', sans-serif;
+ $ff-aleg: 'Alegreya Sans SC', sans-serif;
+ //bordes
+ $borderRadius: 0.25rem;
+ $fs-titles: 1.5rem

@@ -1,3 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fahkwang&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
 
+nav {
+  background-color: #2e2d59;
+  font-family: "Fahkwang", sans-serif;
+  justify-content: space-between;
+  font-size: 1.5rem; }
+  nav div {
+    display: flex; }
+  nav a, nav div ul li a {
+    color: #f2bdd6;
+    font-weight: 600;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none; }
+    nav a:hover, nav div ul li a:hover {
+      color: #f26b9c;
+      transform: scale(1.025); }
+  nav div ul {
+    margin: auto;
+    display: flex; }
+    nav div ul li {
+      text-decoration: none; }
 
-/*# sourceMappingURL=main.css.map */
+.color-blue {
+  color: #2e2d59; }
+
+.bg-lightgray {
+  background-color: #eadff2; }
+
+.color-lightp {
+  color: #f2bdd6; }
+
+.bg-pink {
+  background-color: #f25ca2; }
+
+.width {
+  width: 100%; }
+
+.color-white {
+  color: #eadff2; }
+
+.no-margin {
+  margin: 0; }
+
+body {
+  background-color: #eadff2; }

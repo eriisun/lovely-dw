@@ -1,0 +1,31 @@
+nav{
+    background-color: $clr-blue;
+    font-family: $ff-fah;
+    justify-content: space-between;
+    font-size: $fs-titles;
+    div{
+        display: flex;
+    }
+    a, div ul li a{
+        color: $clr-lightp;
+        font-weight: 600;
+        margin-right: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+
+        &:hover {
+            color: $clr-peach;
+            transform: scale(1.025);
+        }
+    }
+    div ul{
+        margin: auto;
+        display: flex;
+        li{
+            text-decoration: none;
+        }
+
+    }
+    
+}
